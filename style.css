@@ -1,0 +1,229 @@
+
+
+.body{background-color:#2F3436;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+}
+.cover{
+    width: 80%;
+    display: block;
+    height: 80%;
+    margin:auto;
+    }    
+
+.welcome{
+    font-size:70px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    padding-top: 50px;
+    color:#ABC55F;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 rgb(0, 0, 0), 0 -1px#F5504A;
+
+}
+.hires{
+    color: white;
+    text-align: center;
+    font-family: 'muli';
+    font-size: 20px;
+    padding-top: 50px;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    border: #2F3436;
+    padding-bottom: 20px;
+
+}
+.wrapper1{
+    color: white;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 60px;
+}
+.card1{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.card{
+    position: relative;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background-color: #2F3436;
+    color: white;
+    border: none;
+    padding-bottom: 50px;
+
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    display: table-footer-group;
+}
+
+
+.Jordi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.employee{
+    vertical-align: middle;}
+
+.em{
+    width: 50%;
+    padding-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    float: center;
+    }
+
+.text{
+    padding-right: 400px;
+}
+.win{
+    margin: 0 auto;
+    }
+
+.Bdays{
+    font-size:70px;
+    padding-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    padding-top: 90px;
+    color:#ABC55F;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 rgb(0, 0, 0), 0 -1px#F5504A;
+}
+
+.presents{
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+    max-width: 500px;
+    margin: 0 auto ;
+    left: 550px;
+    margin-top: -180px;
+}
+.centered {
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mem{
+    margin-bottom: 100px;
+}
+.bdayp{
+    color: white;
+}
+.cumple{
+    text-align: center; 
+    color: white;
+}
+.list-group-item {
+    padding: .75rem 1.25rem;
+    background-color: #2F3436;
+}
+.list-group-flush>.list-group-item {
+    border: none;
+}
+
+.memory{
+    height: 800px;
+    width: 750px;
+    padding-left: 125px;
+    padding-top: 40px;
+}
+.me{
+    height: 420px;
+    width: 300px; 
+}
+
+.deck{
+    padding-top: 350px;
+}
+.cub{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+}
+.Top{
+    margin: 100px;
+}
+.work{
+    display: block;
+    flex-direction:row;
+    justify-content: space-around;
+  
+}
+.mike{
+max-width: 700px;
+margin: 0 auto 30px;
+}
+
+.comp{
+    padding-top: 400px;
+}
+.bold{
+    font-weight: bold;
+    display: contents;
+
+}
+.list-group-items{
+padding-bottom: 70px;
+}
+
+.card-img, .card-img-top{
+    border-bottom-right-radius: calc(.25rem - 1px);
+    border-bottom-left-radius: calc(.25rem - 1px);
+    width: 300px;
+    margin: auto;
+}
+.jose{
+    float: left;
+}
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;}
+
+.jr{
+    width: 645px;
+    padding-left: 87px;
+    padding-top: 50px;
+}
+.rd{
+    width: 700px;
+    padding-left:300px;
+    padding-top: 50px;
+    text-align: end;
+}
+.raul{
+   margin-left: 100px;
+}
+.JE{
+    padding-top: 100px;
+}
+.NY{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
