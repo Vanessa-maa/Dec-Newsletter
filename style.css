@@ -5,6 +5,7 @@
     width: 100%;
     height: auto;
 }
+
 .cover{
     width: 80%;
     display: block;
@@ -34,6 +35,27 @@
     padding-bottom: 20px;
 
 }
+.recap{
+    color:#2F3436;
+    display: block;
+    margin-left: auto;
+    margin-right: 280px;
+    width: 50%;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 rgb(0, 0, 0), 0 -1px#2F3436;;
+
+}
+.oct{
+    color: white;
+    position: absolute;
+    margin-top: -100px;
+    left: 650px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 rgb(0, 0, 0), 0 -1px#F5504A; 
+    padding-bottom: 50px
+}
 .wrapper1{
     color: white;
     display:flex;
@@ -52,11 +74,7 @@
 
 .card{
     position: relative;
-    -ms-flex-direction: column;
-    flex-direction: column;
     min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -66,6 +84,17 @@
     padding-bottom: 50px;
 
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin-left: 190px;
+  }
+  
+  .row::after {
+    clear: both;
+    display: table;
+    }
 
 .card-body {
     flex: 1 1 auto;
@@ -87,7 +116,6 @@
     padding-top:100px;
     margin-left: auto;
     margin-right: auto;
-    display:flex;
     flex-direction:row;
     justify-content: space-around;
     float: center;
@@ -96,13 +124,11 @@
 .text{
     padding-right: 400px;
 }
-.win{
-    margin: 0 auto;
-    }
+
 
 .Bdays{
     font-size:70px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-family: 'Kaushan Script', cursive;
     text-align: center;
     padding-top: 90px;
@@ -110,14 +136,37 @@
     text-shadow: -1px 0 white, 0 1px white, 1px 0 rgb(0, 0, 0), 0 -1px#F5504A;
 }
 
+.Bdayss{
+    font-size:70px;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    padding-top: 90px;
+    color:#ABC55F;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 rgb(0, 0, 0), 0 -1px#F5504A;
+}
+.r{
+    padding-top: 50px;
+}
+
 .presents{
-    opacity: 0.5;
+    opacity: 0.3;
     position: absolute;
     z-index: 1;
-    max-width: 500px;
-    margin: 0 auto ;
-    left: 550px;
-    margin-top: -180px;
+    margin-top: -110px;
+    display: block; 
+    margin-left: 280px;
+    margin-right: auto;
+    width: 50%;
+}
+.presentss{
+    opacity: 0.3;
+    position: absolute;
+    z-index: 1;
+    margin-top: -110px;
+    display: block; 
+    margin-left: 350px;
+    margin-right: auto;
+    width: 50%;
 }
 .centered {
     color: white;
@@ -126,7 +175,8 @@
     transform: translate(-50%, -50%);
 }
 .mem{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    display: flex
 }
 .bdayp{
     color: white;
@@ -134,6 +184,7 @@
 .cumple{
     text-align: center; 
     color: white;
+    margin: auto;
 }
 .list-group-item {
     padding: .75rem 1.25rem;
@@ -150,8 +201,11 @@
     padding-top: 40px;
 }
 .me{
-    height: 420px;
-    width: 300px; 
+    height: 423px;
+    width: 300px;
+    margin-top: 143px;
+    position: absolute;
+    left: 615px;
 }
 
 .deck{
@@ -159,14 +213,14 @@
 }
 .cub{
     margin: 0px;
-    width: 100%;
+    width: 85%;
     height: auto;
     position: absolute;
     z-index: 1;
     margin-top: 50px;
 }
 .Top{
-    margin: 100px;
+    margin: 75px;
 }
 .work{
     display: block;
@@ -209,16 +263,21 @@ padding-bottom: 70px;
     padding-top: 50px;
 }
 .rd{
-    width: 700px;
-    padding-left:300px;
     padding-top: 50px;
     text-align: end;
+    padding-left: 93px;
+    margin-left: 155px;
+    padding-right: 130px;
 }
 .raul{
    margin-left: 100px;
 }
 .JE{
-    padding-top: 100px;
+    padding-top: 180px;
+    color:  #ABC55F;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 rgb(0, 0, 0), 0 -1px#ABC55F;
 }
 .NY{
     display: block;
@@ -226,4 +285,28 @@ padding-bottom: 70px;
     margin-right: auto;
     width: 50%;
 }
+.Jess{
+    font-size: 40px;
+}
 
+.green{
+    color: #ABC55F;
+    display: contents;
+}
+.cares{
+    width: 800px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a{
+    margin-left: auto;
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    width: 50%;
+    margin-right: 85px
+
+}
